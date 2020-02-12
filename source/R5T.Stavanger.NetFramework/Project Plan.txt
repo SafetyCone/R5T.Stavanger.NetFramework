@@ -1,0 +1,3 @@
+﻿R5T.Stavanger.NetFramework - A NetFramework-based IShortcutOperator service implementation for the Stavanger project.
+
+Based on work in: https://github.com/MinexAutomation/Public/tree/master/Source/Common/Libraries/WindowsShell
