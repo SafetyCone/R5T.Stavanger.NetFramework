@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Stavanger.NetFramework", "R5T.Stavanger.NetFramework\R5T.Stavanger.NetFramework.csproj", "{5601B677-8A5B-487D-AA10-BFD48640AD18}"
 EndProject
@@ -13,7 +13,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{A89710F3-47D3-410A-8A28-B7D71C07DCED}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{FBD5BE96-9CCE-4CAC-B954-E34827438668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0143", "..\..\R5T.T0143\source\R5T.T0143\R5T.T0143.csproj", "{2CCBAE0C-C965-403B-8D93-80F2FE8E0755}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{F5991E5D-29E5-4A0F-AF99-C66A5D92F42D} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
+		{41709F9F-4DAB-4F82-B83D-1A9B11780D08} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
+		{A89710F3-47D3-410A-8A28-B7D71C07DCED} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
+		{FBD5BE96-9CCE-4CAC-B954-E34827438668} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
+		{2CCBAE0C-C965-403B-8D93-80F2FE8E0755} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -35,14 +46,17 @@ Global
 		{A89710F3-47D3-410A-8A28-B7D71C07DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89710F3-47D3-410A-8A28-B7D71C07DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89710F3-47D3-410A-8A28-B7D71C07DCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD5BE96-9CCE-4CAC-B954-E34827438668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD5BE96-9CCE-4CAC-B954-E34827438668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD5BE96-9CCE-4CAC-B954-E34827438668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD5BE96-9CCE-4CAC-B954-E34827438668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCBAE0C-C965-403B-8D93-80F2FE8E0755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCBAE0C-C965-403B-8D93-80F2FE8E0755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCBAE0C-C965-403B-8D93-80F2FE8E0755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCBAE0C-C965-403B-8D93-80F2FE8E0755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F5991E5D-29E5-4A0F-AF99-C66A5D92F42D} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
-		{41709F9F-4DAB-4F82-B83D-1A9B11780D08} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
-		{A89710F3-47D3-410A-8A28-B7D71C07DCED} = {639F0FD3-7E83-49FA-A3E7-849D1307D709}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71CC831C-3439-45C9-AB60-F301868639D6}
